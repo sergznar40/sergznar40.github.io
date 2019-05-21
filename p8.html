@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>P9</title>
+  <style>
+    .borde {
+      border: 1px solid black;
+      padding: 3px;
+    }
+
+    .block {
+      display: block;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      margin: 10px;
+    }
+    .inlline{
+      display: inline;
+      width: 50px;
+      height: 50px;
+      margin: 3px;
+    }
+    .inlineblock{
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      display: inline-block;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Práctica 8 .Block vs Inline</h1>
+
+  <p>Los elementos de un documento HTML, según su forma de mostrarse, se pueden clasificar en inline o block</p>
+
+  <p>Los elementos de bloque(block) se muestran en una nueva linea y ocupan todo el ancho asignado</p>
+
+  <p>Los elementos inline NO se visualiza en una misma linea y ocupa el ancho necesario.</p>
+
+  <h2>Ejemplos inline:</h2>
+
+  <p><span class="borde">&ltspan&gt</span> , <em class="borde">&ltem&gt</em> , <strong class="borde">&ltstrong&gt</strong> etc.. que como se ve, se muestran en la misma linea y ocupan únicamente el espacio necesario</p>
+
+  <h2>Ejemplos block:</h2>
+
+  <p class="borde">Los párrafos son un ejemplo claro de elemento de bloque</p>
+  <h4 class="borde">Encabezados H1-H6</h4>
+  <div class="borde">Etiqueta div</div>
+  <ul class="borde">
+    <li>Listas</li>
+    <li>Ordenadas y no ordenadas</li>
+  </ul>
+  <h2>Actividad</h2>
+  <p>Modifica la propiedad display para que el siguiente grupo de 10 elemnetos div se visualize según la cabecera.</p>
+
+  <h3>10 div - block</h3>
+  <div class="block borde">1</div>
+  <div class="block borde">2</div>
+  <div class="block borde">3</div>
+  <div class="block borde">4</div>
+  <div class="block borde">5</div>
+  <div class="block borde">6</div>
+  <div class="block borde">7</div>
+  <div class="block borde">8</div>
+  <div class="block borde">9</div>
+  <div class="block borde">10</div>
+  <h3>10 div - inline</h3>
+  <div class="inlline borde">1</div>
+  <div class="inlline borde">2</div>
+  <div class="inlline borde">3</div>
+  <div class="inlline borde">4</div>
+  <div class="inlline borde">5</div>
+  <div class="inlline borde">6</div>
+  <div class="inlline borde">7</div>
+  <div class="inlline borde">8</div>
+  <div class="inlline borde">9</div>
+  <div class="inlline borde">10</div>
+
+
+  <h3>10 div - inline-block</h3>
+  <div class="inlineblock borde">1</div>
+  <div class="inlineblock borde">2</div>
+  <div class="inlineblock borde">3</div>
+  <div class="inlineblock borde">4</div>
+  <div class="inlineblock borde">5</div>
+  <div class="inlineblock borde">6</div>
+  <div class="inlineblock borde">7</div>
+  <div class="inlineblock borde">8</div>
+  <div class="inlineblock borde">9</div>
+  <div class="inlineblock borde">10</div>
+</body>
+
+</html>
